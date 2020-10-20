@@ -3,7 +3,7 @@ import edu.princeton.cs.algs4.In;
 import java.util.Scanner;
 
 /**
- * 归并排序，快速排序，堆排序
+ * 归并排序，此算法实现了自顶向下的归并排序，即先将数组拆分至最小数组，然后再把小数组排序后归并（化整为零）
  */
 
 public class MergeSort {
