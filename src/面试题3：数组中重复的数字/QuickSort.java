@@ -2,6 +2,10 @@ import edu.princeton.cs.algs4.StdRandom;
 
 import java.util.Scanner;
 
+/**
+ * 快速排序相对于归并排序的优化，在空间复杂度上，不需要辅助数组来帮助排序，直接在原数组进行元素交换即可
+ * 算法易错点：1、越界问题 2、保持随机性 3、终止循环 4、处理切分元素有无重复的情况 5、终止递归
+ */
 public class QuickSort {
     public static void sort(Comparable[] a) {
         //将输入的数组顺序打乱，消除对输入的依赖，希望能够预测该算法的性能
